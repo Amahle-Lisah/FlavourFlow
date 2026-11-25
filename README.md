@@ -1,4 +1,4 @@
-# FlavourFlow
+# PROJECT TITLE: FlavourFlow
 
 FlavourFlow is a mobile menu management app built with React Native and TypeScript. It lets a restaurant owner build a menu by adding dishes, view them grouped by course, filter them, and remove items they no longer need.
 

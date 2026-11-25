@@ -2,8 +2,6 @@
 
 FlavourFlow is a mobile menu management app built with React Native and TypeScript. It lets a restaurant owner build a menu by adding dishes, view them grouped by course, filter them, and remove items they no longer need.
 
----
-
 ## Features
 
 ### Welcome screen
@@ -25,20 +23,15 @@ FlavourFlow is a mobile menu management app built with React Native and TypeScri
 
 > The menu is stored in the app's memory only, so it resets when the app is closed.
 
----
-
 ## Project structure
 
-| File | Purpose |
-|---|---|
-| `App.tsx` | Main component. Holds the menu list and decides which screen is showing. |
-| `Screens/welcomeScreen.tsx` | The welcome screen. |
-| `Screens/homeScreen.tsx` | Displays the menu grouped by course. |
-| `Screens/addMenuScreen.tsx` | Form for adding a new dish. |
-| `Screens/filterScreen.tsx` | Filters the menu by course. |
-| `Screens/styles.ts` | Shared stylesheet used by all screens. |
-
----
+File | Purpose
+App.tsx| Main component. Holds the menu list and decides which screen is showing. 
+Screens/welcomeScreen.tsx: The welcome screen, where the app begins
+Screens/homeScreen.tsx: Displays the menu grouped by course.
+Screens/addMenuScreen.tsx: Form for adding a new dish. 
+Screens/filterScreen.tsx: Filters the menu by course. 
+Screens/styles.tsx: Shared stylesheet used by all screens. 
 
 ## Built with
 - React Native
@@ -46,15 +39,12 @@ FlavourFlow is a mobile menu management app built with React Native and TypeScri
 - Expo
 - [@react-native-picker/picker](https://github.com/react-native-picker/picker) for the course dropdowns
 
----
-
 ## How to run
 1. Install [Node.js](https://nodejs.org) and the **Expo Go** app on your phone.
 2. In the project folder, run `npm install`.
 3. Run `npx expo start`.
 4. Scan the QR code with Expo Go. Your phone and computer must be on the same Wi-Fi network.
 
----
 
 ## Author
 Amahle Lisah Khumalo

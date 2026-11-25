@@ -12,7 +12,7 @@ const colors = {
 };
 
 export const styles = StyleSheet.create({
-  // SHARED
+  // SHARED Variables
   container: {  
     flex: 1,
     backgroundColor: colors.light,

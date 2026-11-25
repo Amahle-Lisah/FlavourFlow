@@ -8,7 +8,7 @@ const colors = {
   card: '#FFFFFF',        // white background for cards and inputs
   border: '#E0D5C8',      // light border colour
   muted: '#7A6A5D',       // grey-brown for smaller text
-  danger: '#C0392B',      // red for remove and clear buttons
+  danger: '#951103',      // red for remove and clear buttons
 };
 
 export const styles = StyleSheet.create({

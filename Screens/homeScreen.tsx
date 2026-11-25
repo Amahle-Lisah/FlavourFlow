@@ -45,12 +45,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({
       'Remove Item',
       `Are you sure you want to remove "${dishName}" from your menu?`, //Alert message for removing items
       [
-//TITLE: Typescript Error handling
-//AUTHOR: W3Schools 
-//DATE: 20/10/2025 
-//VERSION: Not Specified 
-//AVAILABILITY: https://www.w3schools.com/typescript/typescript_error_handling.php
-        { 
+ {
           text: 'Cancel', 
           style: 'cancel' 
         },

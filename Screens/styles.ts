@@ -4,10 +4,10 @@ import { StyleSheet } from 'react-native';
 const colors = {
   primary: '#D35400',     // warm orange for main buttons
   dark: '#2C1810',        // dark brown for titles and text
-  light: '#FFF8F0',       // soft cream background
-  card: '#FFFFFF',        // white background for cards and inputs
-  border: '#f3cd9e',      // light border colour
-  muted: '#7A6A5D',       // grey-brown for smaller text
+  light: '#fbb668',       // soft cream background
+  card: '#ffffff',        // white background for cards and inputs
+  border: '#7e582a',      // light border colour
+  muted: '#94755c',       // grey-brown for smaller text
   danger: '#951103',      // red for remove and clear buttons
 };
 
@@ -36,7 +36,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   addButton: {
-    backgroundColor: colors.primary,
+    backgroundColor: colors.dark,
     paddingVertical: 12,
     paddingHorizontal: 28,
     borderRadius: 8,
@@ -48,7 +48,7 @@ export const styles = StyleSheet.create({
     borderRadius: 8,
   },
   clearButton: {
-    backgroundColor: colors.danger,
+    backgroundColor: colors.dark,
     paddingVertical: 12,
     paddingHorizontal: 28,
     borderRadius: 8,
@@ -113,7 +113,7 @@ export const styles = StyleSheet.create({
   // HOME SCREEN
   header: {
     alignItems: 'center',
-    backgroundColor: '#FFE9D0',
+    backgroundColor: '#f4ad5d',
     paddingTop: 40,
     paddingBottom: 16,
   },
@@ -199,7 +199,7 @@ export const styles = StyleSheet.create({
     marginTop: 6,
   },
   removeButtonText: {
-    color: '#FFFFFF',
+    color: '#ffffff',
     fontSize: 13,
     fontWeight: 'bold',
   },

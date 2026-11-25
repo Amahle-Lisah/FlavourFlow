@@ -6,7 +6,7 @@ const colors = {
   dark: '#2C1810',        // dark brown for titles and text
   light: '#FFF8F0',       // soft cream background
   card: '#FFFFFF',        // white background for cards and inputs
-  border: '#E0D5C8',      // light border colour
+  border: '#f3cd9e',      // light border colour
   muted: '#7A6A5D',       // grey-brown for smaller text
   danger: '#951103',      // red for remove and clear buttons
 };
